@@ -13,7 +13,7 @@ public class Anagram1 {
 
 	public static void main(String[] args) {
 		String s1 = "eat";
-		String s2 = "ate";
+		String s2 = "aet";
 		boolean isAnagram = isAnagram(s1, s2);
 		if (isAnagram)
 			System.out.println("Given strings are Anagram");

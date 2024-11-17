@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class DuplicateCharInString {
 	public static void main(String[] args) {
-		String str= "hello Javaa";
+		String str = "hello Javaa";
 		duplicateChar(str);
 	}
 
@@ -22,7 +22,7 @@ public class DuplicateCharInString {
 		}
 
 		Set<Entry<Character, Integer>> entrySet = map.entrySet();
-		System.out.println("EntrySet: "+entrySet);
+		System.out.println("EntrySet: " + entrySet);
 		for (Entry<Character, Integer> entry : entrySet) {
 			if (entry.getValue() > 1) {
 				System.out.println(entry.getKey() + ", count = " + entry.getValue());
